@@ -18,6 +18,7 @@ public class Spawn : MonoBehaviour {
 			GameObject newCapsule = (GameObject)Instantiate (capsulePrefab, spawnPoint, Quaternion.Euler (spawnRotation));
 			//setter den nye kapselen som parent til GameObjectet scriptet er koblet til.
 			newCapsule.transform.parent = transform;
+            int start = 3;
 		} 
 	}
 }
