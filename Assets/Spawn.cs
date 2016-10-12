@@ -19,6 +19,7 @@ public class Spawn : MonoBehaviour {
 			//setter den nye kapselen som parent til GameObjectet scriptet er koblet til.
 			newCapsule.transform.parent = transform;
             int start = 3;
+            //
 		} 
 	}
 }
